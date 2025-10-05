@@ -1,0 +1,1 @@
+Untuk memulai program, klik program bernama main.py

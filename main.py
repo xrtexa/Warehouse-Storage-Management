@@ -3,7 +3,7 @@ from src.tracking import Tracking
 
 def main():
     io = InputOutput()
-    while True:
+    while True: #while True digunakan agar program terus berjalan setelah selesai melakukan suatu tindakan
         print("=== Warehouse Storage Management ===")
         print("1. Input barang")
         print("2. Output barang")
@@ -13,7 +13,7 @@ def main():
 
         choice = (input(""))
 
-        if choice == "1":
+        if choice == "1": #if else statement digunakan sebagai selector untuk memilih tindakan
             io.input_item()
         elif choice == "2":
             io.output_item()
